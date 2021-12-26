@@ -1,0 +1,49 @@
+@import '../../variables.scss';
+
+.item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  min-height: 40px;
+  transition: background 128ms ease-in-out;
+  padding: 0.5em 1em;
+
+  .completed {
+    text-decoration: line-through;
+    color: green;
+    opacity: 0.5;
+  }
+
+  &:hover {
+    background: #e8eaf6;
+  }
+
+
+  p {
+    margin: 0;
+    width: 100%;
+    padding: 0 1em;
+    text-align: left;
+    font-size: 20px;
+  }
+
+  span {
+    color: white;
+    background: $indigo-lighten-3;
+    padding: 4px 10px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid rgb(88, 8, 8);
+  }
+
+  .fa-trash {
+    font-size: 22px;
+    color: green;
+  }
+
+  input {
+    background:green;
+  }
+}
