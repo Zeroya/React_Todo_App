@@ -11,7 +11,7 @@ const TodoHeader = ({todos, addTodo}) => {
 
     const todoObj = {
       id: new Date().getTime(),
-      text: inputRef.current.value,
+      title: inputRef.current.value,
       completed: false,
     };
 

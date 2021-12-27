@@ -10,7 +10,7 @@ function App() {
 const [todos, setTodos] = useState(JSON.parse(localStorage.getItem("todos")) || []);
 
 const addTodo = (newTodo) => {
-  if (!newTodo.text){
+  if (!newTodo.title){
     return;
   }
   setTodos([...todos, newTodo])

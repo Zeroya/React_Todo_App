@@ -55,8 +55,8 @@ const TodoItem = ({todo, editTodo, removeTodo}) => {
     <li 
     draggable={true} className='item'>
       <input type="checkbox"  checked={todo.completed}  onChange={handleChange} />
-      <p className={`${todo.completed ? "completed" : "" }`}>{todo.text}</p>
-      <span onClick={handleDelete}><i class="fa fa-trash" aria-hidden="true"></i></span>
+      <p className={`${todo.completed ? "completed" : "" }`}>{todo.title}</p>
+      <span onClick={handleDelete}><i className="fa fa-trash" aria-hidden="true"></i></span>
     </li>
   )
 }
