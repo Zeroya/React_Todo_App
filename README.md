@@ -1,3 +1,3 @@
 
-https://react-todo-app-gg.herokuapp.com/
+Added to heroku : https://react-todo-app-gg.herokuapp.com/
 
